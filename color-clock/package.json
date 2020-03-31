@@ -1,0 +1,25 @@
+{
+  "name": "color-clock",
+  "version": "1.0.0",
+  "description": "color clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unclezap/npm-lab-seattle-web-012720.git"
+  },
+  "keywords": [
+    "zap"
+  ],
+  "author": "zap",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/unclezap/npm-lab-seattle-web-012720/issues"
+  },
+  "homepage": "https://github.com/unclezap/npm-lab-seattle-web-012720#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
